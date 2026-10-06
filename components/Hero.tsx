@@ -20,6 +20,7 @@ export default function Hero({ count, fontFamily }: { count: number; fontFamily:
         <div className="hero-actions">
           <a className="button button--primary" href="#join">Enter the game</a>
           <a className="button" href="#board">View {count} players</a>
+          <a className="button" href="/leaderboard">♠ The Scoreboard</a>
         </div>
       </div>
     </header>
